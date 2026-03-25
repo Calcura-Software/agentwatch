@@ -1,0 +1,20 @@
+[package]
+name = "agentwatch-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Calcura Software LLC <hello@agentwatch.tools>"]
+description = "Core detection library for AgentWatch - identifies AI coding agents"
+license = "MIT"
+repository = "https://github.com/Calcura-Software/agentwatch"
+keywords = ["ai", "agents", "detection", "claude", "cursor"]
+categories = ["development-tools"]
+
+[dependencies]
+sysinfo = "0.38"
+serde = { version = "1", features = ["derive"] }
+regex = "1"
+lazy_static = "1"
+thiserror = "2"
+
+[dev-dependencies]
+pretty_assertions = "1"
