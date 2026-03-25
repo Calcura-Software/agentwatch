@@ -1,13 +1,13 @@
 [package]
 name = "agentwatch"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Calcura Software LLC <hello@agentwatch.tools>"]
 description = "Monitor AI coding agents (Claude, Cursor, Copilot, etc.) from the terminal"
 license = "MIT"
 repository = "https://github.com/Calcura-Software/agentwatch"
 homepage = "https://agentwatch.tools"
-documentation = "https://github.com/ArtificialDiamond/agentwatch#readme"
+documentation = "https://github.com/Calcura-Software/agentwatch#readme"
 readme = "README.md"
 keywords = ["ai", "agents", "monitor", "claude", "cli"]
 categories = ["command-line-utilities", "development-tools"]
@@ -23,7 +23,7 @@ core = ["dep:agentwatch-core"]
 standalone = ["dep:sysinfo"]
 
 [dependencies]
-agentwatch-core = { version = "0.1.0", optional = true }
+agentwatch-core = { version = "0.1.1", optional = true }
 sysinfo = { version = "0.38", optional = true }
 clap = { version = "4", features = ["derive"] }
 colored = "2"
